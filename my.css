@@ -276,10 +276,9 @@ background-color: #0f272d;
 .skills .skills-content .box{
     color: #fff;
     background-color: rgb(5, 91, 62);
-    padding: 5rem; 
-    border-radius: 10px;
+    padding: 3rem; 
+    border-radius: 40px;
     text-align: center;
-
     transition: all 0.3s ease;
 }
 .skills .skills-content  .box:hover{
@@ -316,31 +315,33 @@ background-color: #0f272d;
     margin: 5px auto 0;
     }
 
-.services .box-container{
+.services .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 2fr));
-    gap: 1rem ;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 2fr));
+    gap: 2rem ;
 }
-.services .box-container .box{
-background-color: #fff;
+.services .box-container {
+background-color: #1711b888;
 text-align: center;
 border: var(--border);
+border-radius: 40px;
 padding: 2rem;
 box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 transition: all 0.3s ease;
 
 }
-.services .box-container .box .img{
-    padding: 2.5rem 0;
-}
+
 .services .box-container .box img{
-height: 25rem;
+height: 20rem;
+padding: 2.5rem 0;
+
 }
-#services .row0 .item{
-    background-color: #fff;
+#services  .box{
+    background-color: #ffffff5a;
+    text-align: center;
     padding: 20px 10px;
-     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-border-radius: 5px;
+     box-shadow: 2px 2px 5px rgb(40, 2, 255);
+border-radius: 50px;
 transition: all 0.3s ease;
 }
 .services .box-container .box:hover{
@@ -523,9 +524,20 @@ font-size:4.5rem ;
   }
 
 }
-@media (max-width:300px){
+@media (max-width:300px) {
     html{
       font-size: 50%;
     }
+ 
+        #services  .box{
+            width: 250px;
+        }
+    
+  }
+  @media (max-width:350px) {
+    html{
+      font-size: 50%;
+    }
+
     
   }
